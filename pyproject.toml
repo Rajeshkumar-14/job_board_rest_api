@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-week-7"
+version = "0.1.0"
+description = "Job Board API"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "django_week_7"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.5"
+djangorestframework = "^3.14.0"
+django-filter = "^23.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
